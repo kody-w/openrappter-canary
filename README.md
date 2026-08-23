@@ -19,3 +19,6 @@ No stable/tag/registry/release/installer path may bypass the machine gate.
 Target `main` files are informational. Latest canary is named only by the
 monotonic release-train authority head, which binds an immutable receipt and
 exact target manifest commit.
+
+Per-sequence acknowledgements are immutable under `.ring/applied/`; applied and
+finalized cursors remain separate so canary N+1 cannot outrun finalization N.
