@@ -15,3 +15,7 @@ Validate with `node scripts/validate-manifest.mjs .ring/manifest.json canary`.
 Distribution invariant: canary must descend from finalized nightly and alpha
 receipts after rollout evidence, as step 3 of nightly → alpha → canary → beta.
 No stable/tag/registry/release/installer path may bypass the machine gate.
+
+Target `main` files are informational. Latest canary is named only by the
+monotonic release-train authority head, which binds an immutable receipt and
+exact target manifest commit.
