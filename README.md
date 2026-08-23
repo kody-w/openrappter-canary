@@ -11,3 +11,7 @@ canary artifact. `--ring canary` must fail closed.
 Train: `nightly -> alpha -> canary -> beta -> stable`.
 
 Validate with `node scripts/validate-manifest.mjs .ring/manifest.json canary`.
+
+Distribution invariant: canary must descend from finalized nightly and alpha
+receipts after rollout evidence, as step 3 of nightly → alpha → canary → beta.
+No stable/tag/registry/release/installer path may bypass the machine gate.
