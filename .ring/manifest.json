@@ -17,5 +17,6 @@
   "predecessor": "alpha",
   "status": "disabled",
   "reason": "No successful real smoke test or limited-rollout receipt exists for this source commit.",
-  "receipt": null
+  "receipt": null,
+  "promotion_id": "b4b0ff0fa4bbb79b637f8682966ab54942bd3060798beb3c397e9b350392061a"
 }
