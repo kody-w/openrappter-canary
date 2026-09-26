@@ -1,5 +1,9 @@
 # OpenRappter canary ring
 
+<!-- rapp1:network-header:start -->
+[![RAPP/1](https://kody-w.github.io/rapp-hive-public/portfolio/badges/openrappter-canary.svg)](https://github.com/kody-w/rapp-hive-public/blob/main/portfolio/repos/openrappter-canary.md) · **New to RAPP?** [Start here: get your Brainstem →](https://github.com/kody-w/rapp-installer#start-here)
+<!-- rapp1:network-header:end -->
+
 Canary follows an alpha only after a **successful real smoke test or limited
 rollout** of the same source and bytes. This repository is a maintained pointer,
 not a code copy.
